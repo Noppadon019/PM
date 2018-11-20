@@ -80,6 +80,7 @@ describe('fizzbuzz',()=>{
         const result = libs.fizzbuzz(number);
         expect(result).toBe("FizzBuzz"); 
     })
+    
     it('should return Buzz if number is 40',() =>{
         const number = 40;
         const result = libs.fizzbuzz(number);
